@@ -1,27 +1,29 @@
 # Project_Unet
 
-论文数据集以及权重文件请联系通讯作者获取
+Please contact the corresponding author for the dataset and weights file.
 
-![6221662838dd66c527137273a08b81b](C:\Users\Administrator\Desktop\6221662838dd66c527137273a08b81b.png)
-
-
-
-## 基本环境配置
-
-1. 使用pip install -r requirements.txt命令安装所需要的文件
+![f1f2f2445b657971101bf20a83f126e](C:\Users\Administrator\Documents\WeChat Files\wxid_5n2i1wyhkpsu22\FileStorage\Temp\f1f2f2445b657971101bf20a83f126e.png)
 
 
 
-## 项目环境配置
+## Basic Environment Configuration
 
-1. 新建data文件夹，将申请的数据集放入其中
+1. Use the "pip install -r requirements.txt" command to install the required files
 
-2. 新建log文件夹，来保存训练过程中的指标
 
-3. 新建save_weights文件夹，来保存训练好的权重文件
 
-4. 完整的项目结构如下：![image-20240509131956842](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20240509131956842.png)
+## Detailed Code Operation Procedure
 
-5. 运行train.py文件训练模型,predict.py文件预测病例结果
+1. Create a new data file and put the requested dataset in it
+
+   ![image-20240509144702522](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20240509144702522.png)
+
+2. Create a new log file to save the metrics from the training process![image-20240509144710028](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20240509144710028.png)
+
+3. Create a new save_weights file to save the trained weights files![image-20240509144719802](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20240509144719802.png)
+
+4. The complete project is as follows:![image-20240509144650440](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20240509144650440.png)
+
+5. Run "train.py" file to train the model and run "predict.py" file to predict the case outcome
 
    
